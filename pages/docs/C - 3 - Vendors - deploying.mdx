@@ -1,11 +1,68 @@
 ---
 title: Deploying
 section: Vendors
-slug: /docs/front-end/
+slug: /docs/deploying/
 ---
 
-# Getting started with Shoppingstreet
+# Where should your site be hosted? 
 
-## Why?
+Technically speaking it is not so much hosting, but Functions as a 
+Service (FaaS) you are choosing between. 
 
-Edit `docs/index.mdx` this page to start writing documentation...
+>Functions as a service, FaaS, is most likely the most interacted with 
+serverless product on the market. Function execution platforms really 
+gained rise as more people got tired of setting up full containerized 
+environments for simple code execution. The costs, overall maintenance, 
+and cascading consequences of failures meant more people were looking 
+for a lean context to execute one-off workers in the cloud.
+
+** Source: [https://hasura.io/blog/choosing-a-faas-function-as-a-service-provider/]
+(https://hasura.io/blog/choosing-a-faas-function-as-a-service-provider/) **
+
+> Fortunately, in front-end deployment, there are a number of hosting 
+providers that are blurring the boundaries between host and FaaS provider 
+which gives front-end developers an ever-expanding toolset without 
+sacrificing focus. Today, the big vendors of note in this space are 
+Vercel, Gatsby, and Netlify.
+
+** Source: [https://hasura.io/blog/comparing-serverless-functions-providers-vercel-vs-netlify-vs-gatsby-cloud/]
+(https://hasura.io/blog/comparing-serverless-functions-providers-vercel-vs-netlify-vs-gatsby-cloud/) **
+
+## Netlify
+
+> Netlify takes a different approach to the USP by focusing on value-add. 
+On top of serverless functions and edge execution, they additionally offer 
+packaged auth, large object management, and form handling. These are very 
+common use cases for serverless functions that are pre-made, qualifying 
+Netlify as the most “FaaS platformesque” of the three.
+
+** Source: [https://hasura.io/blog/comparing-serverless-functions-providers-vercel-vs-netlify-vs-gatsby-cloud/]
+(https://hasura.io/blog/comparing-serverless-functions-providers-vercel-vs-netlify-vs-gatsby-cloud/) **
+
+## Vercel
+
+> The Vercel functions USP can’t be properly explained without mentioning 
+the powerhouse of frameworks that is NextJS. If you want to build a 
+website with Javascript and Typescript, you won’t find a concept NextJS 
+can’t handle. It is as simple as that. Being able to code API handlers, 
+webhook handlers, and edge middleware – all within the same codebase as 
+your website – with integrated local development, environment management, 
+and deployment CLIs, Vercel is the Apple of FaaS providers. They simply 
+get the ecosystem right.
+
+** Source: [https://hasura.io/blog/comparing-serverless-functions-providers-vercel-vs-netlify-vs-gatsby-cloud/]
+(https://hasura.io/blog/comparing-serverless-functions-providers-vercel-vs-netlify-vs-gatsby-cloud/) **
+
+## Gatsby Cloud
+
+> Gatsby’s USP is that it is simple to integrate with. It scales well and 
+is tailor-made to work with Gatsby websites. While that might sound 
+limited, Gatsby single-handedly owns the brand game around static sites 
+right now, with name recognition for anyone else in the static website 
+space trailing by a mile. For customers dead set on Gatsby for a static 
+site, Gatsby Cloud Functions will let them stay in that ecosystem without 
+adding extra complexity.
+
+** Source: [https://hasura.io/blog/comparing-serverless-functions-providers-vercel-vs-netlify-vs-gatsby-cloud/]
+(https://hasura.io/blog/comparing-serverless-functions-providers-vercel-vs-netlify-vs-gatsby-cloud/) **
+
