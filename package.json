@@ -13,6 +13,6 @@
     "gatsby-plugin-google-analytics": "^4.11.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
-    "smooth-doc": "^5.0.4"
+    "smooth-doc": "^6.1.0"
   }
 }
