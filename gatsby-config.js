@@ -17,8 +17,8 @@ module.exports = {
           { title: 'Shoppingstreet', url: 'https://www.shoppingstreet.io' }
         ],
         sections: ['About', 'Philosophy', 'Vendors', 'Disclaimer'],
-        githubRepositoryURL: 'https://github.com/akoel',
-        twitterAccount: 'shoppingstreet-io',
+        githubRepositoryURL: 'https://github.com/shoppingstreet-io',
+        twitterAccount: 'shoppingstrt',
       },
     },
     {
