@@ -10,9 +10,11 @@ import {
   HeroAction,
 } from "smooth-doc/components";
 
+import StoreFront from '../src/components/store'
+
 <HeroSection>
   <Hero>
-    <HeroBody>
+    <HeroBody style={{ display: 'inline-block' }}>
       <HeroTitle>Documentation for Shoppingstreet.io</HeroTitle>
       <HeroTeaser>Find out about our vendors and how our product integrates.</HeroTeaser>
       <HeroActionList>
@@ -26,6 +28,9 @@ import {
         </HeroAction>
       </HeroActionList>
     </HeroBody>
+    <div style={{ width: '50%', display: 'inline-block' }}>
+      <StoreFront />
+    </div>
   </Hero>
 </HeroSection>
 
